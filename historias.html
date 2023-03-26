@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste DOM</title>
+    <style>
+            .somando {
+                    color: black;
+
+            }
+            #somando {
+
+                font-size: large;
+                color: aliceblue;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="somando"
+    
+        <h1>Somando Valores</h1>
+          
+          <input type="number"  id="somando2"
+          <input type="number"  id="somando1" >
+          <input type="button" value="somar" onclick="somar()" >
+
+<div id="res" >
+
+
+</div>
+    <script>
+
+            var val1 = document.getElementById("somando1")
+            var val2 = document.getElementById("somando2")
+            var s = somando1 + somando2
+            var res = document.getElementById("res")
+            var n1 = Number(val1.value)
+            var n2 = Number(val2.value)
+       
+            
+                function somar () {
+    
+                        res.innerText = s
+    
+                }
+            
+
+    </script>
+</body>
+</html>
